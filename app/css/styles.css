@@ -1,0 +1,15 @@
+body{
+    background-color: black !important;
+}
+.navbar{
+    background-color: grey !important;
+}
+.navbar-brand{
+    font-family: 'Orbitron', sans-serif;
+}
+.nav-link{
+    font-family: 'Orbitron', sans-serif;
+}
+.jumbotron{
+    /* background-color: black !important; */
+}
