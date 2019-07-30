@@ -21,8 +21,17 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 600px;
     width: auto;
+}
+#content1Text{
+    margin-top: 70px;
+}
+#img1{
+    width: 80%;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 70px;
 }
 
 #content2{
