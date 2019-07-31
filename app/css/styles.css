@@ -7,6 +7,7 @@ body{
     background-color: rgba(31, 28, 28, 0.829) !important;
     position: fixed !important;
     width: 100%;
+    z-index: 2;
 }
 .navbar-brand{
     font-family: 'Orbitron', sans-serif;
