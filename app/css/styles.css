@@ -66,3 +66,77 @@ body{
     height: 800px;
     width: auto;
 }
+
+/* Social Media Menu */
+.icon-bar{
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50);
+    transform: translateY(-50%);
+    overflow:hidden;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+.icon-bar a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: .7s ease;
+    color: white;
+    font-size: 25px;
+    background-color: #000;
+    /* background: linear-gradient(to bottom, #000 0%, #000 100%); */
+
+    
+}
+
+/* 
+#icon_footer .fab:hover{
+    text-shadow: 1px 1px #5a575733; */
+    /* transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1); */
+  /* } */
+
+  #icon_footer .fab{
+    /* transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8); */
+    /* transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    opacity: 1; */
+  }
+  /* .youtube{
+    background: #000;
+    -webkit-transition:  1s ease-out;  
+    -moz-transition: background 1s ease-out;  
+    -o-transition: background 1s ease-out;  
+    transition: background 1s ease-out;  
+  } */
+    .youtube:hover{
+    background: linear-gradient(to bottom, #e42a2a 0%, #c67d42 100%);
+    color: white;
+    /* transition: 1s ease-in !important; */
+    
+    
+    
+}
+.twitch:hover{
+    background: linear-gradient(to bottom, #5e24e6 0%, #c67d42 100%);
+    color: white;
+}
+.instagram:hover{
+    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    color: white;
+}
+.patreon:hover{
+    background: linear-gradient(to bottom, #6ee42a 0%, #c67d42 100%);
+    color: white;
+}
